@@ -21,4 +21,22 @@ For example: `John Smith, the building has 15 floors, it's located at 123 Main S
 ```
 ...and then instantiated and saved as a `Building` object.
 
-### Try it! 
+
+### Setup
+1. Create a virtual environment and activate it:  
+
+`python -m venv venv`
+
+`source venv/bin/activate`  
+
+On Windows: 
+`venv\Scripts\activate`
+
+2. Install the required dependencies:  
+`pip install -r requirements.txt`
+
+3. Create a .env file in the root directory and add your OpenAI API key:  
+`OPENAI_API_KEY=your_openai_api_key_here`
+
+4. Run the example script:
+`python sandbox.py`
