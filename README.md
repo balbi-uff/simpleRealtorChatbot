@@ -4,13 +4,12 @@
 For now, use `sandbox.py` as my main example!
 
 In this project I've explored the concepts of:
-- Summarizing
+
+### Summarizing
 Gathering the info I need from user prompt, e.g. from input fetch `seller_name`, `building cost`, `no_floors` and `address`.
 
-
-- Transforming
-
-`John Smith, the building has 15 floors, it's located at 123 Main Street, Springfield at a cost of 250K` gets transformed into:
+### Transforming
+For example: `John Smith, the building has 15 floors, it's located at 123 Main Street, Springfield at a cost of 250K` gets transformed into:
 ```json
 {
   "reply" : "Thanks for sharing, I'm registering you right now!",
